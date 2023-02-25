@@ -1,0 +1,22 @@
+.RollDice{
+    display : flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    min-height: 100vh;
+}
+
+.RollDice button{
+    width : 150px;
+    border : 0;
+    border-radius: 10px;
+    background-color: black;
+    color: #fff;
+    align-self: center;
+    height : 50px;
+    margin-top: 3rem;
+}
+
+.RollDice button:hover{
+    cursor: pointer;
+    background-color: slateblue;
+}
